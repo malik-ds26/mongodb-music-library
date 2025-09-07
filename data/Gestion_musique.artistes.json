@@ -1,0 +1,84 @@
+[{
+  "_id": "artiste001",
+  "nom": "Artiste X",
+  "genre_musical": "Pop",
+  "nationalite": "Française",
+  "nombre_auditeurs": 50000,
+  "albums": [
+    {
+      "id_album": "album001",
+      "nom_album": "Album X",
+      "date_sortie": "2023-11-20",
+      "nombre_chansons": 12,
+      "duree_totale": "45:30"
+    },
+    {
+      "id_album": "album002",
+      "nom_album": "Nouvel Album",
+      "date_sortie": "2024-05-15",
+      "nombre_chansons": 10,
+      "duree_totale": "38:20"
+    },
+    {
+      "id_album": "album003",
+      "nom_album": "Encore un autre album",
+      "date_sortie": "2024-08-10",
+      "nombre_chansons": 12,
+      "duree_totale": "50:15"
+    },
+    {
+      "id_album": "album002",
+      "nom_album": "Nouvel Album",
+      "date_sortie": "2024-05-15",
+      "nombre_chansons": 10,
+      "duree_totale": "38:20"
+    },
+    {
+      "id_album": "album003",
+      "nom_album": "Encore un autre album",
+      "date_sortie": "2024-08-10",
+      "nombre_chansons": 12,
+      "duree_totale": "50:15"
+    }
+  ]
+},
+{
+  "_id": "artiste002",
+  "nom": "Artiste Y",
+  "genre_musical": "Rock",
+  "nationalite": "Américaine",
+  "nombre_auditeurs": 75000,
+  "albums": [
+    {
+      "id_album": "album002",
+      "nom_album": "Rock Forever",
+      "date_sortie": "2023-09-15",
+      "nombre_chansons": 10,
+      "duree_totale": "40:10"
+    }
+  ]
+},
+{
+  "_id": "artiste003",
+  "nom": "Artiste Z",
+  "genre_musical": "Jazz",
+  "nationalite": "Canadienne",
+  "nombre_auditeurs": 20000,
+  "albums": [
+    {
+      "id_album": "album003",
+      "nom_album": "Jazz Classics",
+      "date_sortie": "2022-04-01",
+      "nombre_chansons": 8,
+      "duree_totale": "35:00"
+    }
+  ]
+},
+{
+  "_id": "artiste004",
+  "nom": "Artiste Y",
+  "genre_musical": "Rock",
+  "nationalite": "Anglaise",
+  "nombre_auditeurs": 30000,
+  "albums": []
+}]

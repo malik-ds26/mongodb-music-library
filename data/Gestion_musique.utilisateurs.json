@@ -1,0 +1,110 @@
+[{
+  "_id": "user001",
+  "nom": "Dupont",
+  "prenom": "Jean",
+  "mot_de_passe": "password123",
+  "date_inscription": "2024-01-15",
+  "abonnement": {
+    "type": "Premium",
+    "date_expiration": "2025-01-15"
+  },
+  "playlists": [
+    {
+      "id_playlist": "pl001",
+      "nom_playlist": "Hits 2024",
+      "date_creation": "2024-02-01",
+      "type": "Public",
+      "chansons": [
+        {
+          "id_chanson": "song001",
+          "titre": "Chanson A",
+          "artiste": "Artiste X"
+        },
+        {
+          "id_chanson": "song002",
+          "titre": "Chanson B",
+          "artiste": "Artiste Y"
+        }
+      ]
+    },
+    {
+      "id_playlist": "pl002",
+      "nom_playlist": "Nouvelle Playlist",
+      "date_creation": {
+        "$date": "2024-12-12T14:25:26.748Z"
+      },
+      "type": "Privée",
+      "chansons": []
+    }
+  ]
+},
+{
+  "_id": "user002",
+  "nom": "Martin",
+  "prenom": "Sophie",
+  "mot_de_passe": "secure456",
+  "date_inscription": "2023-10-20",
+  "abonnement": {
+    "type": "Gratuit",
+    "date_expiration": null
+  },
+  "playlists": [
+    {
+      "id_playlist": "pl002",
+      "nom_playlist": "Relaxation",
+      "date_creation": "2023-11-10",
+      "type": "Privée",
+      "chansons": [
+        {
+          "id_chanson": "song003",
+          "titre": "Chanson C",
+          "artiste": "Artiste Z"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": "user003",
+  "nom": "Nguyen",
+  "prenom": "Alex",
+  "mot_de_passe": "nguyen789",
+  "date_inscription": "2024-03-05",
+  "abonnement": {
+    "type": "Famille",
+    "date_expiration": "2025-03-05"
+  },
+  "playlists": []
+},
+{
+  "_id": "user007",
+  "nom": "Dupont",
+  "prenom": "Jean",
+  "mot_de_passe": "securePass789",
+  "date_inscription": {
+    "$date": "2024-12-12T14:42:14.452Z"
+  },
+  "abonnement": {
+    "type": "Premium",
+    "date_expiration": {
+      "$date": "2024-12-31T00:00:00.000Z"
+    }
+  },
+  "playlists": [
+    {
+      "nom": "Favoris",
+      "chansons": [
+        "song001",
+        "song002",
+        "song003"
+      ]
+    },
+    {
+      "nom": "Relaxation",
+      "chansons": [
+        "song010",
+        "song011"
+      ]
+    }
+  ]
+}]

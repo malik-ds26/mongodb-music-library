@@ -1,0 +1,88 @@
+[{
+  "_id": "song001",
+  "titre": "Chanson A",
+  "duree": "03:45",
+  "date_sortie": "2023-12-10",
+  "genre": "Pop",
+  "popularite": {
+    "nb_vues": 15000,
+    "nb_lectures": 12000
+  },
+  "album": {
+    "id_album": "album001",
+    "nom_album": "Album X",
+    "date_sortie": "2023-11-20"
+  },
+  "artiste": {
+    "id_artiste": "artiste001",
+    "nom": "Artiste X",
+    "genre_musical": "Pop",
+    "nationalite": "Française"
+  }
+},
+{
+  "_id": "song002",
+  "titre": "Chanson B",
+  "duree": "04:12",
+  "date_sortie": "2023-10-05",
+  "genre": "Rock",
+  "popularite": {
+    "nb_vues": 25000,
+    "nb_lectures": 20000
+  },
+  "album": {
+    "id_album": "album002",
+    "nom_album": "Rock Forever",
+    "date_sortie": "2023-09-15"
+  },
+  "artiste": {
+    "id_artiste": "artiste002",
+    "nom": "Artiste Y",
+    "genre_musical": "Rock",
+    "nationalite": "Américaine"
+  }
+},
+{
+  "_id": "song003",
+  "titre": "Chanson C",
+  "duree": "02:50",
+  "date_sortie": "2022-05-12",
+  "genre": "Jazz",
+  "popularite": {
+    "nb_vues": 8000,
+    "nb_lectures": 6000
+  },
+  "album": {
+    "id_album": "album003",
+    "nom_album": "Jazz Classics",
+    "date_sortie": "2022-04-01"
+  },
+  "artiste": {
+    "id_artiste": "artiste003",
+    "nom": "Artiste Z",
+    "genre_musical": "Jazz",
+    "nationalite": "Canadienne"
+  }
+},
+{
+  "_id": "song004",
+  "titre": "Nouvelle Chanson",
+  "duree": "04:15",
+  "date_sortie": "2024-03-01",
+  "genre": "Rock",
+  "popularite": {
+    "nb_vues": 0,
+    "nb_lectures": 0
+  },
+  "album": {
+    "id_album": "album002",
+    "nom_album": "Nouvel Album",
+    "date_sortie": "2024-05-15"
+  },
+  "artiste": {
+    "id_artiste": "artiste002",
+    "nom": "Artiste Y",
+    "genre_musical": "Rock",
+    "nationalite": "Anglaise"
+  }
+}]

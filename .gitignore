@@ -1,0 +1,35 @@
+# =====================
+# MongoDB dumps / données lourdes
+# =====================
+data/**/*.bson
+data/**/*.jsonl
+data/raw/
+*.zip
+*.tar
+*.tar.gz
+
+# On garde seulement les petits JSON d’exemple
+# (les datasets volumineux doivent rester en local)
+
+# =====================
+# Environnements / secrets
+# =====================
+.env
+.venv/
+venv/
+node_modules/
+
+# =====================
+# OS / éditeurs
+# =====================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =====================
+# Tests / Coverage (au cas où)
+# =====================
+.pytest_cache/
+.coverage
+htmlcov/
